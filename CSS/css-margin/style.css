@@ -1,0 +1,18 @@
+.main {
+    border: medium solid black;
+    background-color: aqua;
+    margin: 100px 150px 100px 150px;
+}
+
+.main2 {
+    border: medium solid black;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    width:fit-content;
+}
+
+.main2 p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
