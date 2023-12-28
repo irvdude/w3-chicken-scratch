@@ -1,0 +1,11 @@
+.container {
+    background-color: tomato; /* background color */
+    color: white; /* color of text */
+    border: 2px solid black; /* establishes border, 2px thickness, soldd style*/
+    margin: 20px; /* margin from the edge of display */
+    padding: 20px; /* padding from edge of div */
+}
+
+.new-container{
+    border: none;
+}

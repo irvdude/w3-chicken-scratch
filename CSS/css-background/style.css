@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+
+.cont-bgimg {
+    width: 250px;
+    height: 250px;
+    background-image: url(/css-background/pexels-miguel-á-padriñán-255379.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    /*background-color: blue;*/
+    color: rgb(34, 226, 79);
+}

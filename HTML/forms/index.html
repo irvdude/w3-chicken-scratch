@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="formsfavicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <h2>"for" should be equal to "id"</h2>
+    <h3>
+      "name" is required for values to be sumbitted, can be all encapsulating
+    </h3>
+    <h4>enter your name</h4>
+    <!--If action is "" then action set to current page-->
+    <!--If target is "" _self is default, same principle as href target ex. _blank-->
+    <!--Method is either get or post and specifies HTTP method default of get-->
+    <!--GET appends to url/useful for bookmarks/good for search bars-->
+    <!--POST appends to HTTP request body-->
+    <!--autocomplete specifies completion of values based on entered before-->
+    <!--no validation upon sumbission of form data-->
+    <form action="" target="" method="" autocomplete="on" novalidate>
+      <label for="fname">First Name:</label><br />
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="First Name"
+        autofocus
+      /><br />
+      <br />
+      <label for="lname">Last Name:</label><br />
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="Last Name"
+      /><br />
+      <br />
+      <!--submit is a button that submuts input to form-handler in "action"-->
+      <!--value is text within submit button-->
+      <input type="submit" value="Submit" />
+    </form>
+    <h4>enter your favorite lang (only select one)</h4>
+    <h5>
+      "value" should match innerHTML | "id" should loosesly match label "for" |
+    </h5>
+    <form action="">
+      <input type="radio" name="fav-lang" id="html" value="HTML" />
+      <label for="HTML">HTML</label><br />
+      <br />
+      <input type="radio" name="fav-lang" id="css" value="CSS" />
+      <label for="CSS">CSS</label><br />
+      <br />
+      <input type="radio" name="fav-lang" id="javascript" value="Javascript" />
+      <label for="javascript">Javascript</label><br />
+    </form>
+    <h3>Check method of transportation</h3>
+    <h4>(select zero or more)</h4>
+    <form action="">
+      <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike" />
+      <label for="vehicle1">Bike</label><br />
+      <br />
+      <input type="checkbox" name="vehicle2" id="vehicle2" value="Car" />
+      <label for="vehicle2">Car</label><br />
+      <br />
+      <input type="checkbox" name="vehicle3" id="vehicle3" value="Boat" />
+      <label for="Boat">Boat</label><br />
+      <br />
+    </form>
+    <form action="">
+      <label for="job">Occupation</label>
+      <input type="text" name="job" id="job" /> <br />
+      <br />
+      <!--Select type-->
+      <!--size for visible options, selected is default selection, multiple selection-->
+      <label for="cars">Select car:</label>
+      <select name="cars" id="cars" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab" selected>Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <!--text area is a multiline multicolum text space-->
+      <p>Give a short intoduction for yourself:</p>
+      <textarea name="intro" id="intro" cols="30" rows="10">
+Hi my name is Tokyo</textarea
+      >
+      <br />
+      <!--button has onclick that executes JS, used in eventlisteners in JS file e.preventDefault()-->
+      <button type="button" onclick="alert('Hello World!')">Click here</button>
+      <br />
+      <br />
+      <!--fieldset groups relevant info in form, legned gives caption of fieldset-->
+      <fieldset>
+        <legend>Add Additional Person</legend>
+        <label for="fname2">First Name:</label>
+        <input
+          type="text"
+          name="fname2"
+          id="fname2"
+          value="John"
+          readonly
+        /><br />
+        <br />
+        <label for="lname2">Last Name:</label>
+        <input type="text" name="lname2" id="lname2" value="Doe" disabled />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <br />
+      <h3>Browers</h3>
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+      <br />
+    </form>
+    <br />
+    <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" name="a" id="action" value="50" />
+      100+
+      <input type="number" name="b" id="b" value="50" />
+      <output name="x" for="a b"></output>
+      <input type="submit" />
+      <input type="file" name="files" id="files" multiple />
+    </form>
+  </body>
+</html>

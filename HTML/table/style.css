@@ -1,0 +1,23 @@
+/*table*/th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: chocolate;
+}
+table {
+    width: 100%;
+    border-spacing: 30px;
+}
+
+th, td {
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+td:nth-child(even){
+    background-color: aqua;
+}
