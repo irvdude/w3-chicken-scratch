@@ -1,0 +1,8 @@
+.main {
+    margin: 25px;
+    border: medium solid black;
+    background-color:darkgray;
+    padding: 25px;
+    text-align: center;
+    max-width: fit-content;
+}
