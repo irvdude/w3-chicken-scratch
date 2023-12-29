@@ -1,0 +1,7 @@
+.main {
+    border: medium solid black;
+    background-color: powderblue;
+    text-align: center;
+    height: 200px;
+    max-width: 75%;
+}
