@@ -1,0 +1,10 @@
+.main {
+    margin: auto;
+    border: medium solid black;
+    background-color: lightcoral;
+    text-align: center;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: blue;
+    outline-offset: 5px;
+}
