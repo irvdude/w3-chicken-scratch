@@ -1,0 +1,27 @@
+body {
+    background-color: lightgreen;
+}
+
+nav {
+    display: flex;
+    padding: 5px;
+    border: medium solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    padding-top: 9px;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+ 
