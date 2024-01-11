@@ -1,0 +1,29 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    font: optional;
+    color: aqua;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+h1 {
+    background-color: blueviolet;
+    color: bisque;
+    text-align-last: right;
+}
+
+p {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+.text-decor {   
+    text-decoration:underline red 1px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px red
+    horiz vert blur color,
+    horiz vert blur color,
+}

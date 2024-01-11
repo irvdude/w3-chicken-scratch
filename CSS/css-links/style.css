@@ -1,0 +1,45 @@
+h2 a:link {
+    color: coral;
+    background-color: chartreuse;
+}
+
+h3 a:visited{
+    color: red;
+}
+
+h4 a:hover {
+    color: fuchsia;
+}
+
+h5 a:active {
+    color:cyan;
+}
+
+h6 a:link, a:visited {
+    background-color: gold;
+    color: aqua;
+    padding-left: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: thin solid gold;
+}
+
+h6 a:hover, a:active {
+    background-color: red;
+}
+
+
+.button a:link, a:visited {
+    background-color: white;
+    text-align: center;
+    color: blue;
+    border: thin solid black;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.button a:hover, a:active {
+    background-color: aqua;
+    color: white;
+}
