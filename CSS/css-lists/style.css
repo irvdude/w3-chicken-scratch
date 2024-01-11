@@ -1,0 +1,24 @@
+.lists ul {
+    list-style-type: square;
+    list-style-image: url(star.svg);
+}
+.lists ol {
+    list-style-type:upper-roman;
+    list-style-position: inside;
+}
+
+.list-none ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-none ul { /*type-postition-image */
+    list-style: square outside url(heart.svg);
+    background: crimson;
+    padding: 30px;
+}
+.list-none ul li {
+    background: green;
+    margin: 5px;
+}
