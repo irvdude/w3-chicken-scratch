@@ -1,0 +1,18 @@
+.block-level {
+    display: block;
+    border: medium solid black;
+    margin: 5px 0;
+    background-color: cornsilk;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}

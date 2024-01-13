@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layouts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <button onclick="hide()">Hide</button>
+    <button onclick="show()">Show</button>
+    <div class="block-level">
+      <!--block level starts on new line -->
+      <span>spans are inline and only take up as much width as needed</span>
+      <h1>Hello World</h1>
+      <h2>welcome to display prop</h2>
+      <h3>display allows you to set elements as blocks or lines or flex etc</h3>
+    </div>
+    <div>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+    </div>
+    <p>
+      <span>Hello world</span><span>I am writing this to explain</span
+      ><span>that span will create a line break</span
+      ><span>if you set the display property to block</span>
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
