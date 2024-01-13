@@ -1,0 +1,36 @@
+/* table, th, td {
+    border:1px solid
+}    */
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th {
+    height:30px;
+    text-align: center;
+    background-color: green;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+td {
+    padding: 10px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: violet;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}
+
