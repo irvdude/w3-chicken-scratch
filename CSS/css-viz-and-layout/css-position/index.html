@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="sticky">
+      <h1>Hello World</h1>
+      <p>
+        stick is either relative if scroll pos is within view, becomes fixed
+        when scrolled out of view
+      </p>
+    </div>
+    <div class="static">
+      <h1>Hello World</h1>
+      <p>static not affected by top bottom left and right. default</p>
+    </div>
+    <div class="relative">
+      <h1>Hello World</h1>
+      <p>
+        relative position affected by trbl props relative to default pos
+        (static)
+      </p>
+    </div>
+    <div class="fixed">
+      <h1>Hello World</h1>
+      <p>
+        fixed is relative to viewport of page, remains in pos on page even when
+        scrolled
+      </p>
+    </div>
+    <div class="absolute">
+      <h1>Hello World</h1>
+      <p>
+        absolute is positioned relative to parent/ancestor element (like inside
+        another div) or body
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
