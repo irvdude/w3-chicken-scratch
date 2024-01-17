@@ -1,0 +1,44 @@
+
+.visible {
+    height: 150px;
+    width: 150px;
+    overflow: visible;
+    background-color: antiquewhite;
+}
+
+.hidden {
+    height: 50px;
+    width: 150px;
+    overflow: visible;
+    background-color:aqua;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+
+.scroll {
+    height: 80px;
+    width: 150px;
+    background-color:aquamarine;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+
+.auto {
+    height: 80px;
+    width: 150px;
+    background-color:blanchedalmond;
+    margin-top: 40px;
+    overflow: auto;
+}
+
+
+.xy {
+    height: 150px;
+    width: 50px;
+    margin-top: 40px;
+    background-color: burlywood;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
