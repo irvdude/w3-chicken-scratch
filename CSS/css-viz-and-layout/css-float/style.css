@@ -1,0 +1,44 @@
+.right img {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.none {
+    float: none;
+    margin-top: 230px;
+}
+
+.ldiv {
+    float: left;
+    padding: 15px; 
+  }
+  
+  .div1 {
+    background: red;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding: 1.5em;
+    line-height: normal;
+  }
+  
+  .div2 {
+    background: yellow;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding: 1.5em;
+    line-height: normal;
+  }
+  
+  .div3 {
+    background: green;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding: 1.5em;
+    line-height: normal;
+  }
