@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.div1 {
+    border: medium solid black;
+    text-align: center;
+    margin: 10px 0;
+    height: 50px;
+    padding: 0 5px;
+    padding-top: 25px;
+    overflow: auto;
+}
+
+.div2 {
+    float: left;
+    border: medium solid black;
+    padding: 10px;
+}
+
+img {
+    overflow: auto;
+}
