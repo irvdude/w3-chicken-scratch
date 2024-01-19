@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.box1 {
+    border: medium solid black;
+    float: left;
+    width: 33%;
+    padding: 50px;
+    height: 500px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+.nav-button {
+    float: left;
+}
+
+.nav-button a {
+   display: inline-block; 
+   color: white;
+   text-align: center;
+   padding: 1em;
+   text-decoration: none;
+    background-color: silver;
+}
+
+.nav-button a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: red;
+}
+
+
+
